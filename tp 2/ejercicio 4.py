@@ -1,13 +1,22 @@
-nota1 = float(input("Ingrese nota del primer parcial (del 1 al 10)= "))
-nota2 = float(input("Ingrese nota del segundo parcial (del 1 al 10)= "))
-promedio = int((nota1 + nota2) / 2)
-print("El promedio es = ",promedio)
+#cantidad de dinero del 1er inversor
+primerInversor = 8000
+#cantidad de dinero del 2do inversor
+segundoInversor = 6000
+#cantidad de dinero del 3er inveror
+tercerInversor = 2000
 
-if promedio >= 7 and promedio <= 10:
-    print("El alumno promociona la materia")
-elif promedio >= 4 and promedio <= 6:
-    print("El alumno va a final")
-elif promedio > 10 or promedio < 0:
-    print("Alguna nota esta mal, repita el programa")
-else:
-    print("el alumno no aprueba la materia")
+#fondo total de la inversion
+inversionTotal = primerInversor + segundoInversor + tercerInversor
+print('La inversion es de = $', inversionTotal)
+
+#Porcentaje del 1er inversor
+porcentajePrimerInversor = (primerInversor * 100) / inversionTotal
+
+#Porcentaje del 2do inversor
+porcentajeSegundoInversor = (segundoInversor * 100) / inversionTotal
+
+#Porcentaje del 3er inversor
+porcentajeTercerInversor = (tercerInversor * 100) / inversionTotal
+
+#imprimimos los resultados
+print('El primer inversor aporta un %', porcentajePrimerInversor, '. El segundo inversor aporta un %', porcentajeSegundoInversor, '. El tercer inversor aporta un %', porcentajeTercerInversor)

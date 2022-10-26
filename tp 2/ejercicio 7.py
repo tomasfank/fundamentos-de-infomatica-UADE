@@ -1,8 +1,9 @@
-año = int(input("ingrese el año = "))
+salario = int(100000)
+comision = int(10000)
+nombre = input("Nombre del vendedor ")
+cantidadVentas = int(input("Cuantas ventas realizo "))
+valorVentas = float(input("Valor total de ventas "))
 
-if año % 100 == 0 or año % 400 == 0 or año % 4 != 0:
-    print("No es año bisiesto")
-else:
-    if año % 4 == 0:
-        print("Es año bisiesto")
-        
+salarioTotal = float(salario + (comision * cantidadVentas) + ((valorVentas * 5) / 100))
+
+print("Vendedor =", nombre, "Sueldo = $", salarioTotal)

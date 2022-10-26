@@ -1,1 +1,0 @@
-retira = int(input("cuanto dinero quiere retirar?")

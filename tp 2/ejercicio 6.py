@@ -1,9 +1,11 @@
-viajeMin = float(50)
-km = float(input("cuantos km hizo el taxi? = "))
+medida = float(input("Ingrese una medida en metros "))
 
-if km > 0 and km <= 10:
-    print("El viaje cuesta = $", (viajeMin + (20 * km)))
-else:
-    if km > 10:
-        print("El viaje cuesta = $", (viajeMin + (15 * km)))
-           
+centimetros = float(medida * 100)
+pulgadas = float(centimetros / 2.54)
+pies = float(pulgadas / 12)
+yardas = float(pies / 3)
+
+print("centimetros =", centimetros)
+print("pulgadas =", pulgadas)
+print("pies =", pies)
+print("yardas =", yardas)
