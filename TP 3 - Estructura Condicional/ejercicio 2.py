@@ -1,4 +1,4 @@
-#Ejercicio 2: leer un número entero e imprimir un mensaje indicando si es par o impar 
+""" Leer un número entero e imprimir un mensaje indicando si es par o impar """
 
 #variable
 n = int(input("ingrese un número entero"))

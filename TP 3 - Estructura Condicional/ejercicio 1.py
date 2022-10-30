@@ -1,6 +1,6 @@
-#Ejercicio 1: Ingresar dos números enteros e indicar si son iguales o distintos
+""" Ingresar dos números enteros e indicar si son iguales o distintos """
 
-#variables enteras
+#variables
 n1 = int(input("ingrese un número entero"))
 n2 = int(input("ingrese otro número entero"))
 

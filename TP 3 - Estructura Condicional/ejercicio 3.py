@@ -1,3 +1,7 @@
+""" Crear un programa que pida un número de mes (por ejemplo 4) y escriba el nombre del mes
+en letras ("abril"). Verificar que el mes sea válido y mostrar un mensaje de "error" en caso
+de que no lo sea """
+
 mes = int(input("Ingresa un número del 1 al 12 = "))
 
 if mes == 1:
