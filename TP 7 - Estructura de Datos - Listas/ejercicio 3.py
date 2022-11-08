@@ -14,7 +14,7 @@ def entrada(a, b):
         elif (num == a) and (num == b):
             lista.append(num)
         else:
-            print("Ingrese un valor dentro del rango = ")
+            print("Ingrese un valor dentro del rango")
         num = int(input("Ingrese otro valor = "))
 
 def capicua(a):
